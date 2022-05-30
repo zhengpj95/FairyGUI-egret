@@ -3,3 +3,4 @@ node_modules
 .objs
 bin-debug
 bin-release
+.idea
