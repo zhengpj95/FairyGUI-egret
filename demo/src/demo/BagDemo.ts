@@ -13,7 +13,9 @@ class BagDemo {
         fgui.GRoot.inst.addChild(this._view);
 
         this._bagWindow = new BagWindow();
-        this._view.getChild("bagBtn").addClickListener(() => { this._bagWindow.show(); }, this);
+        this._view.getChild("bagBtn").addClickListener(() => {
+            this._bagWindow.show();
+        }, this);
     }
 
     public destroy() {
@@ -41,7 +43,7 @@ class BagWindow extends fgui.Window {
     }
 
     private renderListItem(index: number, obj: fgui.GObject): void {
-        obj.icon = "resource/assets/Icons/i" + Math.floor(Math.random() * 10) +".png";
+        obj.icon = "resource/assets/Icons/i" + Math.floor(Math.random() * 10) + ".png";
         obj.text = "" + Math.floor(Math.random() * 100);
     }
 

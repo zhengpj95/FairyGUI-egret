@@ -18,6 +18,9 @@
     <image id="thi7h" name="8.png" path="/images/" scale="9grid" scale9grid="31,26,62,52"/>
     <movieclip id="thi7j" name="quan.jta" path="/images/"/>
     <component id="osdok" name="dot.xml" path="/"/>
+    <image id="i2y0l" name="at_bag.png" path="/images/"/>
+    <component id="i2y0n" name="BagButton2.xml" path="/"/>
+    <movieclip id="i2y0z" name="btnEff.jta" path="/images/"/>
   </resources>
   <publish name="Bag">
     <atlas name="Default" index="0"/>

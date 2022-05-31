@@ -5,5 +5,12 @@
     <group id="n1" name="n1" xy="29,505" size="90,100" advanced="true">
       <relation target="" sidePair="bottom-bottom"/>
     </group>
+    <component id="n2_i2y0" name="bagBtn2" src="thi7c" fileName="BagButton.xml" xy="921,505">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n4_i2y0" name="n4" src="i2y0n" fileName="BagButton2.xml" xy="507,505" controller="c1,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button titleColor="#000000" titleFontSize="25" icon="ui://rbw1tv9ti2y0l"/>
+    </component>
   </displayList>
 </component>
